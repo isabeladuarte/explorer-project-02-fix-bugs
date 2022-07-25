@@ -3,6 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
   min-height: 100vh;
+  overflow : hidden;
 }
   
 .page {
@@ -56,11 +57,16 @@ h1 {
   color: #1f1534;
   font-weight: normal;
   width: 490px;
+  margin: 0;
 }
 
 h1 span {
   color: #89c5cc;
   font-weight: bold;
+}
+
+section {
+  padding-top: 106px;
 }
 
 section p {
@@ -97,17 +103,17 @@ button:hover {
 #fitness-jump {
   position: relative;
   float: right;
-  bottom: 342px;
+  bottom: 400px;
 }
 
 footer {
   font-size: 14px;
+  text-align: center;
   width: 100%;
-  line-height: 28px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 30px;
+  right: 0;
 }
 
 footer a {
