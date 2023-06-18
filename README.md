@@ -1,7 +1,7 @@
 <h1 align="center">Treine.me</h1>
 
 <p align="center">
-Esse desafio tem como objetivo desenvolver o projeto Treine.me da <a href="https://www.rocketseat.com.br/">Rocketseat</a>. <br/>
+Esse desafio tem como objetivo corrigir os bugs do projeto Treine.me da <a href="https://www.rocketseat.com.br/">Rocketseat</a>. <br/>
 </p>
 
 
